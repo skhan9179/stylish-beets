@@ -1,24 +1,56 @@
-/*
-font-family: 'PT Sans', sans-serif;
-font-family: 'PT Serif', serif;
-*/
-
 html {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Serif', serif;
   background-color: #c9b5ab;
-  font-size: 1;
   line-height: 1.5;
 }
 
 h1, h2 {
+  font-family: 'PT Sans', sans-serif;
   color: #3f1622;
+  font-size: 1.5rem;
 }
 
-nav ol{
+nav ol {
   color: #8f2440;
+  font-family: 'PT Sans', sans-serif;
   list-style-type: none;
+  font-size: 1.125rem;
 }
 
-nav ol a{
+nav ol a {
   text-decoration: none;
+}
+
+.important-text {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+strong {
+  font-weight: normal;
+}
+ cite {
+   font-size: 0.8rem;
+   font-weight: normal;
+ }
+
+.serving-size {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+ul {
+  font-size: 0.8rem;
 }
