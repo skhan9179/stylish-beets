@@ -1,18 +1,18 @@
 html {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   background-color: #c9b5ab;
   line-height: 1.5;
   color: #222;
 }
 
 h1, h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
   font-size: 1.5rem;
 }
 
 nav ol {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   list-style-type: none;
   font-size: 1.125rem;
 }
@@ -47,7 +47,7 @@ strong {
 }
 
 .blockquote-cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-weight: normal;
 }
 
@@ -60,7 +60,7 @@ dt {
 }
 
 ul {
-  font-size: 0.8rem;
+  font-size: .8rem;
   list-style-type: circle;
 }
 
@@ -69,5 +69,5 @@ ul {
 }
 
 img {
-  width: 500px;
+  width: 100%;
 }
