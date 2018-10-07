@@ -11,14 +11,19 @@ h1, h2 {
 }
 
 nav ol {
-  color: #8f2440;
   font-family: 'PT Sans', sans-serif;
   list-style-type: none;
   font-size: 1.125rem;
 }
 
-nav ol a {
+a, a:visited {
   text-decoration: none;
+  color: #8f2440;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 .important-text {
@@ -38,10 +43,11 @@ blockquote {
 strong {
   font-weight: normal;
 }
- cite {
-   font-size: 0.8rem;
-   font-weight: normal;
- }
+
+.blockquote-cite {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
 
 .serving-size {
   font-style: italic;
