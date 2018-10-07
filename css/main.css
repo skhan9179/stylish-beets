@@ -2,6 +2,7 @@ html {
   font-family: 'PT Serif', serif;
   background-color: #c9b5ab;
   line-height: 1.5;
+  color: #222;
 }
 
 h1, h2 {
@@ -33,6 +34,7 @@ a:hover {
 
 figcaption {
   font-style: italic;
+  text-align: center;
 }
 
 blockquote {
@@ -64,4 +66,8 @@ ul {
 
 .common-varieties {
   list-style-type: lower-greek;
+}
+
+img {
+  width: 500px;
 }
