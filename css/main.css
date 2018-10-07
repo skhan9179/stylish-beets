@@ -59,4 +59,9 @@ dt {
 
 ul {
   font-size: 0.8rem;
+  list-style-type: circle;
+}
+
+.common-varieties {
+  list-style-type: lower-greek;
 }
